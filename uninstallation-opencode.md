@@ -28,10 +28,10 @@ opencode debug paths
 
 Then manually delete these directories if they exist:
 
-- `~/.local/share/opencode`
-- `~/.cache/opencode`
-- `~/.config/opencode`
-- `~/.local/state/opencode`
+- ```bash rm -rf ~/.local/share/opencode```
+- ```bash rm -rf ~/.cache/opencode```
+- ```bash rm -rf ~/.config/opencode```
+- ```bash rm -rf ~/.local/state/opencode```
 
 **Warning:** These directories may contain your authentication details, configurations, logs, and session data. Back up anything you need before deleting them.
 
